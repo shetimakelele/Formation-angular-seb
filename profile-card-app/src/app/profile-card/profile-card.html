@@ -1,0 +1,23 @@
+<div class="card">
+  <img [src]="avatarUrl" alt="avatar" class="avatar">
+
+  <h2>{{ name }}</h2>
+
+  <span class="status-badge" [class.online]="isOnline" [class.offline]="!isOnline">
+    {{ isOnline ? 'En ligne' : 'Hors ligne' }}
+  </span>
+
+  <div class="field-group">
+    <label>Nom</label>
+    <input type="text" [(ngModel)]="name">
+  </div>
+
+  <div class="field-group">
+    <label>Bio</label>
+    <input type="text" [(ngModel)]="bio">
+  </div>
+
+  <p class="bio-preview">{{ bio }}</p>
+
+  <button (click)="toggleStatus()">Changer statut</button>
+</div>
