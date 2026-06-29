@@ -1,6 +1,18 @@
 # Formation-angular-seb
 Initiation au developpement front avec angular 
 
+# Installation
+
+Angular a besoin de Nodejs pour fonctionner (CLI, build, serveur de dev)
+- Telecharge la version LTS 
+- Vérifie l'intallations node -v   npm-v
+- Vérifie la compatibilité de version avec Angular (à date, Angular 18+ demande Node 18.19+ ou 20+)
+- install Angular CLI
+
+npm install -g @angular/cli
+ng version
+
+
 # Étape 1 — Les fondamentaux Angular
 On démarre ta formation Angular. L'idée de cette étape 1 : te donner les bases minimales pour comprendre comment une app Angular est construite et comment elle communique avec le HTML. Pas besoin de tout maîtriser à 100% dès maintenant, l'objectif est surtout que les mécanismes de base deviennent des réflexes avant qu'on enchaîne sur des choses plus complexes (services, RxJS, etc.).
 
