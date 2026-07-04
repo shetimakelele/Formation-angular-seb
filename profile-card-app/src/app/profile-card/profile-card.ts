@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 export class ProfileCard {
   name = 'john Doe';
   bio = "développeur angular junior";
+  age = 21;
   isOnline = true;
   avatarUrl ='https://i.pravatar.cc/150?img=12';
 
