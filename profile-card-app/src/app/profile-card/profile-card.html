@@ -3,6 +3,8 @@
 
   <h2>{{ name }}</h2>
 
+  <h3>{{ age }}</h3>
+
   <span class="status-badge" [class.online]="isOnline" [class.offline]="!isOnline">
     {{ isOnline ? 'En ligne' : 'Hors ligne' }}
   </span>
@@ -16,6 +18,12 @@
     <label>Bio</label>
     <input type="text" [(ngModel)]="bio">
   </div>
+
+    <div class="field-group">
+    <label>Changer l'age</label>
+    <input type="text" [(ngModel)]="age">
+  </div>
+
 
   <p class="bio-preview">{{ bio }}</p>
 
